@@ -30,6 +30,7 @@ public class HotelController implements Serializable{
 			
 		}
 		new FileStorage().writeObject(this, "storage.ser");
+		men.HandleMenuOption(in);
 	}
 	
 	public void setupRooms() {
